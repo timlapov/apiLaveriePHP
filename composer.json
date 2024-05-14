@@ -1,0 +1,19 @@
+{
+    "name": "timlapov/api-laverie-php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Timothee LAPOV",
+            "email": "artemlapov@me.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "symfony/var-dumper": "^7.0"
+    }
+}
