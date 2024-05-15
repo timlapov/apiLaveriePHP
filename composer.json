@@ -12,7 +12,9 @@
             "email": "artemlapov@me.com"
         }
     ],
-    "require": {},
+    "require": {
+      "ext-pdo": "*"
+    },
     "require-dev": {
         "symfony/var-dumper": "^7.0"
     }

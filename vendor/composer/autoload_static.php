@@ -12,22 +12,15 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
     );
 
     public static $prefixLengthsPsr4 = array (
-        'T' => 
-        array (
-            'Timlapov\\ApiLaveriePhp\\' => 23,
-        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\VarDumper\\' => 28,
+            'Src\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Timlapov\\ApiLaveriePhp\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
@@ -35,6 +28,10 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
         'Symfony\\Component\\VarDumper\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
+        ),
+        'Src\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
